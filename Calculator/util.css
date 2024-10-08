@@ -1,27 +1,56 @@
-.text-centre{
+
+  
+  .text-center {
     text-align: center;
-  }
-  
-  .bg-red{
-     background-color: greenyellow;
-  }
-  
-  .mx-auto{
-    margin: auto;
-  }
-  .m-w-20{
+}
+
+.bg-red {
+    background-color: red; /* Changed to red for clarity */
+}
+
+.mx-auto {
+    margin: 0 auto; /* Added margin-left and margin-right to center horizontally */
+}
+
+.m-w-20 {
     max-width: 20vw;
-  }
-  
-  .flex{
+}
+
+.flex {
     display: flex;
-  }
-  .flex-col{
+}
+
+.flex-col {
     flex-direction: column;
-  }
-  .items-center{
+}
+
+.items-center {
     align-items: center;
-  }
-  
-  
-  
+}
+
+/* Additional enhancements */
+
+.container {
+    padding: 20px; /* Added padding for spacing */
+    border: 1px solid #ccc; /* Added a border for visual clarity */
+    border-radius: 5px; /* Added rounded corners for a more modern look */
+}
+
+.row {
+    margin-bottom: 10px; /* Added margin-bottom for spacing between rows */
+}
+
+.button {
+    padding: 10px 20px; /* Increased padding for better readability */
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; /* Changed color to white for better contrast */
+    background-color: #333; /* Changed background color to dark gray */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #444; /* Changed hover background color for better feedback */
+}

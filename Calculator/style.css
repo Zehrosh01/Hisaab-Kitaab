@@ -1,28 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F0F8FF;
+}
 
-html {
-  height: 100%;
-  width: 100%;
-  font-family: 'Roboto', sans-serif;
+.calculator {
+    background-color: #fff;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.display {
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    outline: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
 }
 
 .button {
-  padding: 20px;
-  margin: 0 3px;
-  border: 2px solid black;
-  border-radius: 9px;
-  cursor: pointer;
+    background-color: #D0F0C0;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
 }
 
-.row {
-  margin: 8px 0;
+.button:hover {
+    background-color: #f0f0f0;
 }
 
-.row input {
-  font-size: 19px;
-  margin: 0;
-  padding: 10px 32px;
-  border: 2px solid black;
-  border-radius: 7px;
-  ;
+.operator {
+    background-color: #CCCCFF;
+}
+
+.clear {
+    background-color: #FF0800;
+    color: white;
+}
+
+.equals {
+    background-color: #138808;
+    color: white;
+}
+
+h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #333; /* Change the color to your preference */
+    text-align: center; /* Center the text horizontally */
 }

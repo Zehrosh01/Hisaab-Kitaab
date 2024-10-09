@@ -67,8 +67,30 @@ body {
 }
 
 h1 {
-    font-size: 36px; /* Adjust the font size as needed */
+    font-size: 36px; 
     font-weight: bold;
-    color: #333; /* Change the color to your preference */
-    text-align: center; /* Center the text horizontally */
+    color: #333; 
+    text-align: center; 
 }
+
+
+@media screen and (max-width: 480px) {
+    .calculator {
+      width: 100%; 
+    }
+  
+    .buttons {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .calculator {
+      width: 80%; 
+    }
+  
+    .buttons {
+      grid-template-columns: repeat(3, 1fr); 
+    }
+  }
